@@ -48,5 +48,10 @@ function info() {
     contb.style.display = "block";
     infb.style.display = "none";
     homeb.style.display = "block";
-
+}
+function tobej() {
+    window.location = "login.html";
+}
+function bacho() {
+    window.location = "index.html";
 }

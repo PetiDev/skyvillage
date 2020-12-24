@@ -5,7 +5,6 @@
     border-style: solid;
     border-width: 5px;
     border-color: #dcdde1;
-   
     overflow: hidden;
     position: absolute;
     left: 50%;
@@ -33,7 +32,6 @@
   }
   .b {
       display: flex;
-      
       justify-content: space-evenly;
       
       
@@ -46,7 +44,6 @@
     border-style: solid;
     border-width: 5px;
     border-color: #dcdde1;
-    
     overflow: hidden;
    
   }
@@ -60,7 +57,6 @@
   .cim {
     color: #f1c40f;
     font-weight: bold;
-    
     -webkit-text-stroke: 1px black;
   }
   .leiras {
@@ -77,14 +73,12 @@
     font-size: 20px;
 }
 .men {
-    
     background: none;
     border: none;
     height: 31px;
 }
 
- .mm {
-     
+ .mm {  
     position: absolute;
     right: 0px;
     top: 0px;
@@ -104,15 +98,65 @@
  .menu {
     background-color: #576574;
      display: none;
-     width: min-content;
-     
+     width: min-content;  
+ }
+ .szoveeg {
+     border-style: none;
+     border-bottom-style: solid;
+     border-color: #f1c40f;
  }
  #contact {
      display: none;
+ }
+ #contact dl {
+     font-size: 30px;
  }
  #homebutton {
      display: none;
  }
  #info {
      display: none;
+ }
+ .bactoh {
+    display: flex;
+    justify-content: end;
+    
+ }
+ .bactoh button {
+     border-style: none;
+     background-color: #576574;
+     text-align: center;
+     height: 36px;
+     border-bottom-left-radius: 50px;
+     border-top-left-radius: 50px;
+     font-size: 15px;
+     font-weight: bold;
+ }
+ .lo { 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+ }
+ .lo input {
+     width: 100%;
+     border-style: none;
+     border-bottom-style: solid;
+     border-width: 3px;
+     font-family: sans-serif;
+     border-color: #f1c40f;
+     -webkit-text-stroke: 0px black;  
+ }
+ .lolo {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: #f1c40f;
+     -webkit-text-stroke: 1px black;
+     font-weight: bold;
+     font-family: cursive;     
+ }
+ .place {
+     height: 40%;
  }
