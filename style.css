@@ -145,7 +145,8 @@
      border-width: 3px;
      font-family: sans-serif;
      border-color: #f1c40f;
-     -webkit-text-stroke: 0px black;  
+     -webkit-text-stroke: 0px black; 
+     text-align: center; 
  }
  .lolo {
      width: 50%;
