@@ -7,16 +7,16 @@ const inf = document.getElementById('info');
 const men = document.getElementById('men');
 const x = document.getElementById('menu');
 
-men.onclick =(e)=> {
-    
-    if(x.style.display === "block"){
+men.onclick = (e) => {
+
+    if (x.style.display === "block") {
         x.style.display = "none";
-    }else{
+    } else {
         x.style.display = "block";
     }
 }
 function contact() {
-   
+
     cont.style.display = "block";
     contb.style.display = "none";
     homeb.style.display = "block";
@@ -26,7 +26,7 @@ function contact() {
 
 }
 function hhome() {
-    
+
     cont.style.display = "none";
     contb.style.display = "block";
     homeb.style.display = "none";
@@ -35,7 +35,7 @@ function hhome() {
     inf.style.display = "none";
 }
 function info() {
-   
+
     inf.style.display = "block";
     cont.style.display = "none";
     home.style.display = "none";
