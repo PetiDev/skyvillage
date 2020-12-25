@@ -1,5 +1,14 @@
-function men() {
-    var x = document.getElementById('menu');
+const cont = document.getElementById('contact');
+const contb = document.getElementById('contbutton');
+const homeb = document.getElementById('homebutton');
+const home = document.getElementById('home');
+const infb = document.getElementById('infobutton');
+const inf = document.getElementById('info');
+const men = document.getElementById('men');
+const x = document.getElementById('menu');
+
+men.onclick =(e)=> {
+    
     if(x.style.display === "block"){
         x.style.display = "none";
     }else{
@@ -7,12 +16,7 @@ function men() {
     }
 }
 function contact() {
-    var cont = document.getElementById('contact');
-    var contb = document.getElementById('contbutton');
-    var homeb = document.getElementById('homebutton');
-    var home = document.getElementById('home');
-    var infb = document.getElementById('infobutton');
-    var inf = document.getElementById('info');
+   
     cont.style.display = "block";
     contb.style.display = "none";
     homeb.style.display = "block";
@@ -21,13 +25,8 @@ function contact() {
     inf.style.display = "none";
 
 }
-function home() {
-    var cont = document.getElementById('contact');
-    var contb = document.getElementById('contbutton');
-    var homeb = document.getElementById('homebutton');
-    var home = document.getElementById('home');
-    var infb = document.getElementById('infobutton');
-    var inf = document.getElementById('info');
+function hhome() {
+    
     cont.style.display = "none";
     contb.style.display = "block";
     homeb.style.display = "none";
@@ -36,12 +35,7 @@ function home() {
     inf.style.display = "none";
 }
 function info() {
-    var infb = document.getElementById('infobutton');
-    var homeb = document.getElementById('homebutton');
-    var home = document.getElementById('home');
-    var contb = document.getElementById('contbutton');
-    var cont = document.getElementById('contact');
-    var inf = document.getElementById('info');
+   
     inf.style.display = "block";
     cont.style.display = "none";
     home.style.display = "none";
