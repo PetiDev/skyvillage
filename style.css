@@ -148,16 +148,17 @@
      -webkit-text-stroke: 0px black; 
      text-align: center; 
      background: transparent;
+     color: wheat;
  }
  .lolo {
-     width: 50%;
+     width: 100%;
      display: flex;
      flex-direction: column;
      align-items: center;
      color: #f1c40f;
-     -webkit-text-stroke: 1px black;
+     
      font-weight: bold;
-     font-family: cursive;     
+     font-family: sans-serif;     
  }
  .place {
      height: 40%;
@@ -166,4 +167,22 @@
      border-radius: 30px;
      background: none;
  }
- 
+.lololo {
+    display: flex;
+    border-style: hidden;
+    align-items: center;
+    
+    height: 90%;
+    width: 80%;
+}
+.lolole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 50%;
+    border-style: solid;
+    border-color: #222f3e;
+    background-color: #353b48;
+    border-radius: 20px;
+}
