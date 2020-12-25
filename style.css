@@ -147,6 +147,7 @@
      border-color: #f1c40f;
      -webkit-text-stroke: 0px black; 
      text-align: center; 
+     background: transparent;
  }
  .lolo {
      width: 50%;
@@ -165,6 +166,4 @@
      border-radius: 30px;
      background: none;
  }
-
-
-
+ 
