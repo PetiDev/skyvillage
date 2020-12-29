@@ -36,6 +36,7 @@
       
       
       
+      
   }
   .kep {
     width: 90px;
@@ -49,11 +50,14 @@
   }
   .nem {
       display: flex;
-      height: 170px;
+      height: 190px;
+      
       justify-content: center;
-      align-items: end;
+      align-items: flex-end;
+    
     
   }
+
   .cim {
     color: #f1c40f;
     font-weight: bold;
@@ -117,10 +121,7 @@
  #info {
      display: none;
  }
- .bactoh {
-    
-    
- }
+ 
  .bactoh button {
      position: absolute;
      left: 100%;
