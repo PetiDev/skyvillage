@@ -118,15 +118,19 @@
      display: none;
  }
  .bactoh {
-    display: flex;
-    justify-content: end;
+    
     
  }
  .bactoh button {
+     position: absolute;
+     left: 100%;
+     top: 0px;
+     transform: translate(-100%,0px);
      border-style: none;
      background-color: #576574;
      text-align: center;
      height: 36px;
+     width: 140px;
      border-bottom-left-radius: 50px;
      border-top-left-radius: 50px;
      font-size: 15px;
@@ -173,14 +177,14 @@
     align-items: center;
     
     height: 90%;
-    width: 80%;
+    width: 90%;
 }
 .lolole {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60%;
-    width: 50%;
+    height: 400px;
+    width: 600px;
     border-style: solid;
     border-color: #222f3e;
     background-color: #353b48;
