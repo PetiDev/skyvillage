@@ -49,3 +49,6 @@ function tobej() {
 function bacho() {
     window.location = "index.html";
 }
+function reg() {
+    window.location = "reg.html";
+}
