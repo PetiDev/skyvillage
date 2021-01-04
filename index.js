@@ -6,6 +6,22 @@ const infb = document.getElementById('infobutton');
 const inf = document.getElementById('info');
 const men = document.getElementById('men');
 const x = document.getElementById('menu');
+const kepp = document.getElementById('kepp');
+const bar = document.getElementById('bar');
+
+
+function random_color() {
+    var x = Math.floor(Math.random() * 256);
+    var y = Math.floor(Math.random() * 256);
+    var z = Math.floor(Math.random() * 256);
+    var Color = "rgb(" + x + "," + y + "," + z + ")";
+ 
+  
+   bar.style.background = Color;
+    }
+
+kepp.onclick = (e) => {random_color()}
+
 
 men.onclick = (e) => {
 
@@ -13,35 +29,34 @@ men.onclick = (e) => {
         x.style.display = "none";
     } else {
         x.style.display = "block";
+        x.style.textAlign = 'center';
     }
 }
 function contact() {
-
+    
     cont.style.display = "block";
-    contb.style.display = "none";
-    homeb.style.display = "block";
+    
+    
     home.style.display = "none";
-    infb.style.display = "block";
+    
     inf.style.display = "none";
 
 }
 function hhome() {
-
+    
     cont.style.display = "none";
-    contb.style.display = "block";
-    homeb.style.display = "none";
+    
+    
     home.style.display = "block";
-    infb.style.display = "block";
+    
     inf.style.display = "none";
 }
 function info() {
-
+    
     inf.style.display = "block";
     cont.style.display = "none";
     home.style.display = "none";
-    contb.style.display = "block";
-    infb.style.display = "none";
-    homeb.style.display = "block";
+    
 }
 function tobej() {
     window.location = "login.html";

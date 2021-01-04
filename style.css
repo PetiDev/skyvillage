@@ -81,6 +81,10 @@
     border: none;
     height: 31px;
 }
+#kepp{
+    background: none;
+    border: none;
+}
 
  .mm {  
     position: absolute;
@@ -111,13 +115,12 @@
  }
  #contact {
      display: none;
+     
  }
  #contact dl {
      font-size: 30px;
  }
- #homebutton {
-     display: none;
- }
+ 
  #info {
      display: none;
  }
@@ -165,6 +168,8 @@
      font-weight: bold;
      font-family: sans-serif;     
  }
+
+ 
  .place {
      height: 40%;
  }
