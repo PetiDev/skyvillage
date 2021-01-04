@@ -77,6 +77,9 @@
     font-size: 20px;
     width: 140px;
 }
+.menu button:hover {
+    background-color: #5e6975;
+}
 .men {
     background: none;
     border: none;
