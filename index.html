@@ -2,86 +2,53 @@
 <html lang="hu">
 
 <head>
-    <link rel="shortcut icon" href="./tesztlogo.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./tesztlogo.png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkyVillage</title>
 </head>
 
 <body>
-    <div class="bar" id="bar">
-        <!-- teteje -->
-        
-        <button id="kepp"><img class="logo" src="asdasdasd.png" alt="Logó"></button>
-        <p class="nev">SkyVillage</p>
-        <!--Készytés alatt--><br><h2>Készítés alatt</h2>
-        <div class="mm">
-            <!--MENÜ-->
-            <button id="men" class="men"><img src="menu.png" alt="" width="31px" height="31px"></button>
-            <div id="menu" class="menu">
-                <button onclick="tobej()">Bejelentkezés</button><br>
-                <button onclick="reg()">Regisztráció</button><br>
-                <button onclick="hhome()" id="homebutton">Home</button><br>
-                <button id="contbutton" onclick="contact()">Contact</button><br>
-                <button id="infobutton" onclick="info()">Infó</button>
-            </div>
-        </div>
+    <div class="header">
+        <img id="mainlogo" src="./asdasdasd.png" alt="">
     </div>
-  
-    <div class="nem">
-        
-        
-            <div class="nemtom">
-              <center>  <h1 class="cim">SkyVillage</h1>
-            
-            <p class="leiras">Egy minecraft szerver lesz egyszer talán</p><br>
+    <div class="menu-owerlay">
+        <img src="./arrow.png" width="30" height="30">
+        <span>
+            <button id="nagy">Menü</button>
+        </span>
+        <span>
+            <button id="nagy">Bejelentkezés</button></span>
+        <span>
+            <button id="nagy">Regisztráció</button></span>
+        <span>
+            <button id="nagy">Elérhetőségek</button></span>
+    </div>
+<!--főoldal-->
+    <div class="main">
+        <h1>SkyVillage</h1>
+        <center>
+            <br>
+            <br>
+            <img id="tajkep" src="./taj.png">
+            <li>Lenyűgöző világ</li>
+            <li>Hála a Biome Bundle pluginnak, realisztikus világunk van.</li>
+            <br>
+            <img id="tajkep" src="./asdasdasd.png">
+            <li>Szórakozás</li>
+            <li>Szórakozz és ismerkedj a Sky Village szerverén.</li>
+            <br>
+            <img id="tajkep" src="./asdasdasd.png">
+            <li>Sok új item és lény</li>
+            <li>A survival szerverünk fabric serveren fut,<br>ezért sok új mod kerülhetett be a játék megújításáért</li>
+            <br> 
         </center>
-        </div>
     </div>
-    <div id="home">
-        <!-- home -->
-        <div class="b">
-            <div>
-                <center><img class="kep" src="taj.png" alt="Logó"><br>
-                    <h3>Lenyűgöző világ</h3>
-                    <p class="szoveeg">Hála a Biome Bundle pluginnak, realisztikus világunk van.</p>
-                </center>
-            </div>
-            <div>
-                <center><img class="kep" src="asdasdasd.png" alt="Logó"><br>
-                    <h3>Szórakozás</h3>
-                    <p class="szoveeg">Szórakozz és ismerkedj a Sky Village szerverén.</p>
-                </center>
-            </div>
-            <div>
-                <center><img class="kep" src="asdasdasd.png" alt="Logó">
-                    <h3>Sok új item</h3>
-                    <p class="szoveeg">A slimefun pluginnak hála sok új funkciót kapott a játék.</p>
-                </center>
-            </div>
-        </div>
-    </div>
-    <div id="contact">
-        <!--contact-->
-        <div>
-            <dl>
-                <li>Email:</li>
-                <ul>
-                    <li>example@gmail.com</li>
-                </ul>
-            </dl>
-        </div>
-    </div>
-    <div id="info">
-        <!--infó-->
-        <div>
-            <center>
-                <h1>skyvillage.gq</h1>
-                <h3>Verzió: 1.14.4</h3>
-            </center>
-        </div>
-    </div>
+     
+
+
     <script src="index.js"></script>
 </body>
 
