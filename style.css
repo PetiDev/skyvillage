@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #feca57;
+}
+.header {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    background-color: #8395a7;
+    width: 100%;
+    height: 40px;
+}
+#mainlogo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 60px;
+    width: 60px;
+    border: 4px solid #8395a7;
+    border-radius: 50%;
+}
+span {
+    width: 200px; 
+} 
+.menu-owerlay button {
+    opacity: 0;
+    visibility: hidden;
+    width: 40px;
+    height: 35px;
+    font-size: 1px;
+    transition: ease 1s;
+    background-color: #222f3e;
+    border: none;
+}
+.menu-owerlay:hover button{
+    opacity: 1;
+    visibility: visible;
+    font-size: 20px;
+    width: 199px;
+    background-color: #dc143c;
+}
+.menu-owerlay button:hover{
+    background-color: #8d112a;
+}
+.menu-owerlay {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    background-color: #dc143c;
+    position: absolute;
+    left:0px;
+    top: 0px;
+    width: 40px;
+    height: 30px;
+    transition: ease 1s;
+}
+.menu-owerlay #nagy{
+    visibility: hidden;
+}
+.menu-owerlay:hover #nagy{
+    visibility: visible;
+}
+.menu-owerlay:hover img{
+    transform: rotate(90deg);
+}
+.menu-owerlay:hover{
+    visibility: visible;
+    background-color: #222f3e;
+    width: 200px;
+    height: 100%;
+}
+.menu-owerlay span:nth-last-child(1) {
+    position: absolute;
+    bottom: 18px;
+}
+.main {
+    z-index: -1;
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+.main h1 {
+    position: absolute;
+    top: 0px;
+    color: #e68c38;
+    -webkit-text-stroke: 1px black;
+}
+.main center {
+    position: absolute;
+    top: 10%;
+}
+#tajkep {
+    border: solid 3px #8395a7;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
