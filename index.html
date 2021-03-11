@@ -9,7 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkyVillage</title>
 </head>
-
 <body>
     <div class="header">
         <img id="mainlogo" src="./asdasdasd.png" alt="">
@@ -17,14 +16,14 @@
     <div class="menu-owerlay">
         <img src="./arrow.png" width="30" height="30">
         <span>
-            <button id="nagy">Menü</button>
+            <button onclick="elere('menubtn')"  id="menubtn" title="Menü" >M</button>
         </span>
         <span>
-            <button id="nagy">Bejelentkezés</button></span>
+            <button onclick="elere('loginbtn')"  id="loginbtn" title="Bejelentkezés" >B</button></span>
         <span>
-            <button id="nagy">Regisztráció</button></span>
+            <button onclick="elere('regbtn')"  id="regbtn" title="Regisztráció">R</button></span>
         <span>
-            <button id="nagy">Elérhetőségek</button></span>
+            <button onclick="elere('elerhetoseg')"  id="elerhetoseg" title="Elérhetőségek" >E</button></span>
     </div>
 <!--főoldal-->
     <div class="main">
@@ -46,7 +45,25 @@
             <br> 
         </center>
     </div>
-     
+    <div class="eleres">
+        <h1>SkyVillage</h1>
+        <center>
+            <br>
+            <br>
+            <img id="tajkep" src="./taj.png">
+            <li>Lenyűgöző világ</li>
+            <li>Hála a Biome Bundle pluginnak, realisztikus világunk van.</li>
+            <br>
+            <img id="tajkep" src="./asdasdasd.png">
+            <li>Szórakozás</li>
+            <li>Szórakozz és ismerkedj a Sky Village szerverén.</li>
+            <br>
+            <img id="tajkep" src="./asdasdasd.png">
+            <li>Sok új item és lény</li>
+            <li>A survival szerverünk fabric serveren fut,<br>ezért sok új mod kerülhetett be a játék megújításáért</li>
+            <br> 
+        </center>
+    </div>
 
 
     <script src="index.js"></script>
